@@ -1,4 +1,20 @@
-body {
-	font-family: 'Noto Sans KR', sans-serif;
+:root {
+    --main-font: 'Noto Sans KR', sans-serif;
+    --green-color1: #E3FFFA;/* wireframe background */
+    --green-color2: #59EACE;/* main background */
+    --green-color3: #22806E;/* 강조된 text */
+    --gray-color: #424242;
+
+    --regular-font-size: 1.3vw;
+    --text-font-size: 0.9vw;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: var(--main-font);
+}
