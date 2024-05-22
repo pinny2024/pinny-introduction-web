@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(89, 234, 206, 0.3);
+    display: flex;
+}
+
+/* 왼쪽 */
+.main-page>.left-part {
+    position: relative;
+    width: 40vw;
+    padding: 5%;
+    padding-top: 17%;
+}
+
+.main-page>.left-part>img {/* logo image */
+    position: relative;
+    width: 23vw;
+}
+
+.main-page>.left-part>.period {
+    position: relative;
+    font-weight: 900;
+    font-size: var(--regular-font-size);
+    color: var(--gray-color);
+    opacity: 0.8;
+    margin: 1.5% 0;
+}
+
+.main-page>.left-part>.text-box {
+    position: relative;
+    width: fit-content;
+    margin-top: 3vw;
+    line-height: 2vw;
+}
+
+.main-page>.left-part>.text-box>.project-part {
+    font-size: var(--regular-font-size);
+    color: var(--gray-color);
+    opacity: 0.8;
+}
+
+.main-page>.left-part>.text-box>.using {
+    font-size: var(--text-font-size);
+    color: var(--gray-color);
+    opacity: 0.5;
+}
+
+/* 오른쪽 */
+.main-page>.right-part {
+    position: relative;
+    width: 60vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.main-page>.right-part>img {
+    position: relative;
+    right: 10vw;
+    width: 75vw;
+    height: 100%;
+}
