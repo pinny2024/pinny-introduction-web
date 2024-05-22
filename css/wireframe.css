@@ -1,0 +1,27 @@
+.wireframe-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--green-color1);
+}
+
+.wireframe-page> .title {
+    position: absolute;
+    top: 3vw;
+    right: 5.5vw;
+    color: var(--green-color3);
+    font-size: var(--regular-font-size);
+}
+
+
+.wireframe-page > .wrapper {
+    position: relative;
+    width: 100vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wireframe-page > .wrapper > img {
+    width: 110vw;
+    height: 100%;
+}
