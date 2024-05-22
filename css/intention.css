@@ -1,0 +1,178 @@
+.intention-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.intention-page>.title {
+    position: absolute;
+    top: 3vw;
+    right: 5.5vw;
+    color: var(--green-color3);
+}
+
+.intention-page>.wrapper {
+    position: relative;
+    /* padding: 10vw;/ */
+    top: 46vh;
+    overflow-y: hidden;
+    transform: translateY(-50%);
+}
+
+.intention-page>.wrapper>.wrapper-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 20vh 0;
+}
+
+.intention-page>.wrapper>.wrapper-box>.text-box {
+    position: relative;
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    overflow-y: hidden;
+    margin: 0 0 7vh 0;
+}
+
+.intention-page>.wrapper>.wrapper-box>.text-box>.message {
+    position: relative;
+    height: 100%;
+    font-size: var(--regular-font-size);
+    color: var(--gray-color);
+    text-align: center;
+    margin: 0;
+}
+
+.intention-page>.wrapper>.wrapper-box>.text-box>.hashtags {
+    position: relative;
+    display: flex;
+    gap: 12vw;
+    height: 100%;
+    /* top: 10vh; */
+    color: var(--green-color3);
+    font-size: var(--regular-font-size);
+    font-weight: 500;
+    padding: 0 15vw;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions {
+    /* position: relative;
+    height: 55vh;
+    left: 1vw; */
+    /* top: 10vh; */
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    align-content: space-between;
+    /* background-color: antiquewhite; */
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box1>.title,
+.intention-page>.wrapper>.wrapper-box>.intentions>.box2>.title,
+.intention-page>.wrapper>.wrapper-box>.intentions>.box3>.title {
+    position: relative;
+    font-size: var(--regular-font-size);
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box1>.content,
+.intention-page>.wrapper>.wrapper-box>.intentions>.box2>.content,
+.intention-page>.wrapper>.wrapper-box>.intentions>.box3>.content {
+    position: relative;
+    font-size: var(--small-font-size);
+    line-height: 1.4vw;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box1>.text-frame1,
+.intention-page>.wrapper>.wrapper-box>.intentions>.box2>.text-frame2,
+.intention-page>.wrapper>.wrapper-box>.intentions>.box3>.text-frame1 {
+    z-index: -1;
+    position: relative;
+    width: 33vw;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box1>.decoration1,
+.intention-page>.wrapper>.wrapper-box>.intentions>.box2>.decoration2,
+.intention-page>.wrapper>.wrapper-box>.intentions>.box3>.decoration2 {
+    position: relative;
+    width: 6vw;
+}
+
+/* box1 */
+.intention-page>.wrapper>.wrapper-box>.intentions>.box1 {
+    position: relative;
+    top: -5vh;
+    left: 12vw;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box1>.text-frame1 {
+    top: 5vw;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box1>.decoration1 {
+    left: 34vw;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box1>.title {
+    top: -2.4vw;
+    left: 9.5vw;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box1>.content {
+    width: 25vw;
+    top: -2vw;
+    left: 9.5vw;
+}
+
+/* box2 */
+.intention-page>.wrapper>.wrapper-box>.intentions>.box2 {
+    position: relative;
+    top: -4.5vw;
+    left: 47vw;
+    z-index: 1000;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box2>.decoration2 {
+    top: 3vw;
+    left: -5.3vw;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box2>.title {
+    top: -7.3vw;
+    left: 3vw;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box2>.content {
+    width: 26vw;
+    top: -6.8vw;
+    left: 3vw;
+}
+
+/* box3 */
+.intention-page>.wrapper>.wrapper-box>.intentions>.box3 {
+    position: relative;
+    top: -13vw;
+    left: 21vw;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box3>.decoration2 {
+    top: 1.4vw;
+    left: -2.9vw;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box3>.title {
+    top: -7.3vw;
+    left: 3vw;
+}
+
+.intention-page>.wrapper>.wrapper-box>.intentions>.box3>.content {
+    width: 27vw;
+    top: -7vw;
+    left: 3vw;
+}
