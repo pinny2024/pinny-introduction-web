@@ -2,6 +2,9 @@
     position: relative;
     width: 100vw;
     height: 100vh;
+    background-image: url(../image/purpose/base-background.svg);
+    background-size: 105vw;
+    background-repeat: no-repeat;
 }
 
 .purpose-page>.title {
@@ -9,4 +12,80 @@
     top: 3vw;
     right: 5.5vw;
     color: var(--green-color3);
+    font-size: var(--regular-font-size);
+}
+
+.purpose-page>.wrapper {
+    position: relative;
+    width: 75vw;
+    height: 65vh;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow-y: hidden;
+}
+
+.purpose-page>.wrapper>.purposes-box {
+    position: relative;
+    width: 72%;
+    height: 80%;
+    margin: auto;
+}
+
+/* purposes */
+.purpose-page>.wrapper>.purposes-box>.purpose1,
+.purpose-page>.wrapper>.purposes-box>.purpose2,
+.purpose-page>.wrapper>.purposes-box>.purpose3 {
+    position: absolute;
+    width: 19vw;
+    height: 19vw;
+    background-image: url(../image/purpose/text-round-base.svg);
+    background-size: 19vw;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.purpose-page>.wrapper>.purposes-box>.purpose1>.text-box,
+.purpose-page>.wrapper>.purposes-box>.purpose2>.text-box,
+.purpose-page>.wrapper>.purposes-box>.purpose3>.text-box {
+    position: relative;
+    height: 36%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.purpose-page>.wrapper>.purposes-box>.purpose1>.text-box>.title,
+.purpose-page>.wrapper>.purposes-box>.purpose2>.text-box>.title,
+.purpose-page>.wrapper>.purposes-box>.purpose3>.text-box>.title {
+    position: relative;
+    margin-bottom: 3vh;
+    font-size: var(--big-font-size);
+    font-weight: 700;
+    color: var(--gray-color);
+}
+.purpose-page>.wrapper>.purposes-box>.purpose1>.text-box>.content,
+.purpose-page>.wrapper>.purposes-box>.purpose2>.text-box>.content,
+.purpose-page>.wrapper>.purposes-box>.purpose3>.text-box>.content {
+    font-size: var(--small-font-size);
+    color: var(--gray-color);
+}
+
+.purpose-page>.wrapper>.purposes-box>.purpose2 {
+    left: 17vw;
+}
+.purpose-page>.wrapper>.purposes-box>.purpose3 {
+    left: 34vw;
+}
+
+.purpose-page>.wrapper>.message {
+    position: relative;
+    width: 71%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+    color: var(--gray-color);
+    font-size: var(--regular-font-size);
+}
+.purpose-page>.wrapper>.message>.important {
+    color: var(--green-color3);
+    font-weight: 600;
 }

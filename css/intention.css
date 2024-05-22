@@ -11,6 +11,7 @@
     top: 3vw;
     right: 5.5vw;
     color: var(--green-color3);
+    font-size: var(--regular-font-size);
 }
 
 .intention-page>.wrapper {
