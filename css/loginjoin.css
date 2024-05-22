@@ -1,0 +1,77 @@
+.loginjoin-page {
+    position: relative;
+    width: 100vw;
+    height: 200vh;
+    background-color: var(--gray-background-color);
+}
+
+.loginjoin-page>.title {
+    position: absolute;
+    top: 3vw;
+    right: 5.5vw;
+    color: var(--green-color3);
+    font-size: var(--regular-font-size);
+}
+
+
+.loginjoin-page>.wrapper {
+    position: relative;
+    width: 100vw;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.loginjoin-page>.wrapper>.top-box {
+    position: relative;
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    padding: 0 10vw;
+}
+.loginjoin-page>.wrapper>.top-box>.image-box {
+    position: relative;
+    margin: auto;
+}
+
+.loginjoin-page>.wrapper>.top-box>.image-box>img {
+    position: relative;
+    width: 17vw;
+}
+
+.loginjoin-page>.wrapper>.top-box>.text-box {
+    position: relative;
+    left: -5vw;
+    height: fit-content;
+    margin: auto;
+    padding-bottom: 35vh;
+}
+
+.loginjoin-page>.wrapper>.top-box>.text-box>.title {
+    color: var(--gray-color);
+    font-size: 1.7vw;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+.loginjoin-page>.wrapper>.top-box>.text-box>.title>.important {
+    color: var(--green-color2);
+}
+.loginjoin-page>.wrapper>.top-box>.text-box>.content {
+    color: var(--gray-color);
+    font-size: var(--small-font-size);
+}
+
+.loginjoin-page>.wrapper>.bottom-box {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.loginjoin-page>.wrapper>.bottom-box>.image-box {
+    position: relative;
+    width: 100vw;
+}
+.loginjoin-page>.wrapper>.bottom-box>.image-box>img {
+    position: relative;
+    width: 100vw;
+}
