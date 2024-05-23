@@ -1,0 +1,72 @@
+.home{
+    margin-left: 70px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #38D6B8;
+
+}
+.contents{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.homes{
+   
+    margin-left: 70px;
+    display: flex;
+    
+}
+.contentss{
+    margin-left:100px;
+}
+
+.arr1{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 11%;
+}
+
+.arr2{
+    margin-left: 87px;
+}
+
+.arr3{
+    position: absolute;
+    margin-left: 46.1%;
+    margin-top: 22.5rem;
+}
+.arr4{
+    position: absolute;
+    margin-left: 46.1%;
+    margin-top: 52rem;
+}
+.arr5{
+    margin-left: 4.5%;
+    margin-top: 8.5%;
+}
+.arr6{
+    position: absolute;
+    display: flex;
+    margin-left: 57%;
+    margin-top: -10%;
+}
+.contentss{
+    position: relative;
+    margin-top: -2px;
+    
+}
+.arr7{
+    margin-top: 8.5%;
+    margin-left: 5.5%;
+}
+.home2{
+    position: absolute;
+    top: 123rem;
+    right: 5.5vw;
+    color: var(--green-color3);
+    font-size: 30px
+}
